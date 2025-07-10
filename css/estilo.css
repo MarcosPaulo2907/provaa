@@ -1,84 +1,92 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
-}
-header {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    text-align: center;
-}
-#logo{
-    width: 30%;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-}
-img{
-    border-radius: 50px;
-}
-#banner{
-    width: 70%;
-    background-color: burlywood;
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-#banner h1{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 10vh;
-   display: flex;             
-   justify-content: center;    
-    align-items: center;   
-    text-decoration: underline;
-
-}
-ul {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: flex-end;
-    
-}
-ul li {
-    margin: 20px;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(44, 40, 40)
- 
+    background-color: rgb(222, 184, 135);
+    color: white;
 }
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+img {
+    border-radius: 50px;
+}
+
+#banner {
+    flex: 2;
+    background-color: rgb(222, 184, 135);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner h1 {
+    width: 100%;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li {
+    margin: 20px;
+}
+
 #novidade {
     text-align: center;
     font-size: 5vh;
     color: white;
-    background-color:  rgb(44, 40, 40);
+    background-color: rgb(44, 40, 40);
+    padding: 1vh;
+    text-decoration: underline;
+}
+
+#novid, #mine, #cs, #rdr2, #gt, #kojima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(44, 40, 40);
     padding: 1vh;
 }
 
-#novid {
-   color: white;
-   display: flex;
-   background-color: (44, 40, 40);
-   
-}
-#mine{
-    padding: 1vw;
-}
 
-#cs {
-    width: 30vw;
-   background-color: rgb(44, 40, 40);
-   padding: 1vw;
-}
 #rdr2 {
-    
-    background-color: rgb(44, 40, 40);
     padding: 4vh;
 }
+
+#lançamentos {
+    text-align: center;
+    font-size: 12vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 40, 40);
+    padding: 1vh;
+    text-decoration: underline;
+}
+    
 
 
